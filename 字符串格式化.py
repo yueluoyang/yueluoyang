@@ -23,6 +23,8 @@ import datetime
 d = datetime.datetime(2010, 7, 4, 12, 15, 58)
 print('{:%Y-%m-%d %H:%M:%S}'.format(d))
 
+
+# 两种更加复杂的例子
 for align, text in zip('<^>', ['left', 'center', 'right']):
     print('{0:{fill}{align}16}'.format(text, fill=align, align=align))
 
